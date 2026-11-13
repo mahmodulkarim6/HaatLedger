@@ -10,7 +10,7 @@ Login (one shared admin password), Dashboard (market price ticker, charts), Farm
 2. `npm install`
 3. Copy `.env.example` to `.env.local` and fill in your database details (use `DB_SSL=false` for local MySQL) and choose an `ADMIN_PASSWORD`.
 4. Create the tables and sample data: `npm run db:setup` (use `npm run db:reset` to start over).
-5. `npm run dev` and open http://localhost:3000
+5. `npm run dev` and open https://haatledger.vercel.app/
 
 ## Deploy to Vercel
 Vercel does not host MySQL, so use a cloud MySQL first. Free options: TiDB Cloud Serverless, Aiven, Railway.
